@@ -15,25 +15,36 @@
 	
 
 ### Resources
-- Data Source: [ MechaCar_mpg.csv](https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/tree/main/Resources), [ Suspension_Coil.csv](https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/tree/main/Resources)  	
-- Software: RStudio-2022.02.3-492
+- Data Source: LoanStats_2019Q1.csv
+- Software: Python 3.7 and accompanying Anaconda package, Conda 4.8.4, Jupyter Notebook
 
 ## Random Over Sampler model:
 	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS1.png
+  <img width="600" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS1.png
 </p>  
 	
+
+- Calculation of the confusion matrix.
+	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS2.png
+  <img width="200" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS2.png
 </p>  
 		
+- Imbalanced classification report
+
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS3.png
+	
+  <img width="600" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS3.png
 </p>  
 	
 
 - According to analysis provides a non-random amount of variance to the linear model of mpg.
+The balanced accuracy score is 65%.
+The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.
+Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 68%.
+
+	
 	
 	
 ## SMOTE model:
@@ -42,12 +53,16 @@
   <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/SM1.png
 </p>  
 	
+- Calculation of the confusion matrix.
+
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/SM2.png
+  <img width="200" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/SM2.png
 </p>  
-		
+
+- Imbalanced classification report
+	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/SM3.png
+  <img width="600" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/SM3.png
 </p>  
 	
 
@@ -60,12 +75,16 @@
   <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/CL1.png
 </p>  
 	
+- Calculation of the confusion matrix	
+	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/CL2.png
+  <img width="200" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/CL2.png
 </p>  
+	
+- Imbalanced classification report
 		
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/CL3.png
+  <img width="600" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/CL3.png
 </p>  
 	
 
@@ -77,12 +96,16 @@
   <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/Smoteenn1.png
 </p>  
 	
+- Calculation of the confusion matrix	
+	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/Smoteenn2.png
+  <img width="200" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/Smoteenn2.png
 </p>  
 		
+- Imbalanced classification report
+	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/Smoteenn3.png
+  <img width="600" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/Smoteenn3.png
 </p>  
 	
 
@@ -95,12 +118,16 @@
   <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/BR1.png 
 </p>  
 	
+- Calculation of the confusion matrix
+	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/BR2.png
+  <img width="200" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/BR2.png
 </p>  
+
+- Imbalanced classification report
 		
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/BR3.png
+  <img width="600" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/BR3.png
 </p>  
 	
 
@@ -112,12 +139,15 @@
   <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/EEC1.png
 </p>  
 	
+- Calculation of the confusion matrix	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/EEC2.png
-</p>  
+  <img width="200" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/EEC2.png
+</p>
+
+- Imbalanced classification report
 		
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/EEC3.png
+  <img width="600" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/EEC3.png
 </p>  
 	
 
