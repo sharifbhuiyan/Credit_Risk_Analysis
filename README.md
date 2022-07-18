@@ -1,5 +1,4 @@
-# Credit_Risk_Analysis
-## **<h1 align="justify"> MechaCar_Statistical_Analysis**
+## **<h1 align="justify"> Credit_Risk_Analysis**
   	
 ---
 ## Overview of the project: 
@@ -9,63 +8,117 @@
 
 <p align="justify">This project consists of four technical analysis deliverables. <p>
 
-- Deliverable 1: Linear Regression to Predict MPG
-- Deliverable 2: Summary Statistics on Suspension Coils
-- Deliverable 3: T-Test on Suspension Coils
-- Deliverable 4: Design a Study Comparing the MechaCar to the Competition
+- Deliverable 1: Use Resampling Models to Predict Credit Risk
+- Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
+- Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+- Deliverable 4: A Written Report on the Credit Risk Analysis
 	
 
 ### Resources
 - Data Source: [ MechaCar_mpg.csv](https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/tree/main/Resources), [ Suspension_Coil.csv](https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/tree/main/Resources)  	
 - Software: RStudio-2022.02.3-492
 
-## Linear Regression to Predict MPG:
+## Random Over Sampler model:
 	
 <p align="center">
-  <img width="400" src=https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/blob/main/Resources/D1.png
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS1.png
+</p>  
+	
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS2.png
+</p>  
+		
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS3.png
 </p>  
 	
 
 - According to analysis provides a non-random amount of variance to the linear model of mpg.
 	
 	
-### Summary Statistics on Suspension Coils
+## SMOTE model:
 	
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/blob/main/Resources/D2.png
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/SM1.png
+</p>  
+	
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/SM2.png
+</p>  
+		
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/SM3.png
 </p>  
 	
 
+- According to analysis provides a non-random amount of variance to the linear model of mpg.
+	
 
-### T-Tests on Suspension Coils
-### T-Test all manufacturing lots against the population mean
+## ClusterCentroids model:
 	
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/blob/main/Resources/d3.png
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/CL1.png
 </p>  
-
-	
-### T-Tests each manufacturing lot against the population mean
-- Lot_1
 	
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/blob/main/Resources/t1.png
-</p>
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/CL2.png
+</p>  
+		
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/CL3.png
+</p>  
 	
+
+- According to analysis provides a non-random amount of variance to the linear model of mpg.
 	
-- Lot_2
+## SMOTEENN model:
 	
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/blob/main/Resources/t2.png 
-</p>
-	
-
-- Lot_3
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/Smoteenn1.png
+</p>  
 	
 <p align="center">
-  <img width="500" src=https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/blob/main/Resources/t3.png
-</p>
-
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/Smoteenn2.png
+</p>  
+		
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/Smoteenn3.png
+</p>  
 	
 
+- According to analysis provides a non-random amount of variance to the linear model of mpg.
+	
 
+## BalancedRandomForestClassifier model:
+	
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/BR1.png 
+</p>  
+	
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/BR2.png
+</p>  
+		
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/BR3.png
+</p>  
+	
+
+- According to analysis provides a non-random amount of variance to the linear model of mpg.
+	
+## EasyEnsembleClassifier model:
+	
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/EEC1.png
+</p>  
+	
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/EEC2.png
+</p>  
+		
+<p align="center">
+  <img width="400" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/EEC3.png
+</p>  
+	
+
+- According to analysis provides a non-random amount of variance to the linear model of mpg.
