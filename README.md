@@ -2,7 +2,9 @@
   	
 ---
 ## Overview of the project: 
-<p align="justify">The objective of the project to analysis data with statistics and hypothesis testing of datasets of a automotive industry. And all the testing and analysis and visualization is written with the R programming language. <p>
+<p align="justify">In this project, we use Python to build and evaluate several machine learning models to predict credit risk.
+We adopted the following procedure:
+. <p>
 	
 ---
 
@@ -33,16 +35,12 @@
 		
 - Imbalanced classification report
 
-<p align="center">
-	
+<p align="center">	
   <img width="600" src=https://github.com/sharifbhuiyan/Credit_Risk_Analysis/blob/main/Resources/ROS3.png
 </p>  
 	
 
-- According to analysis provides a non-random amount of variance to the linear model of mpg.
-The balanced accuracy score is 65%.
-The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.
-Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 68%.
+- The balanced accuracy score is 62%. The high_risk precision is about 1% only with 60% sensitivity which makes a F1 of 2% only. Low_risk precision is almost 100% with a sensitivity of 68%.
 
 	
 	
@@ -66,7 +64,7 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 </p>  
 	
 
-- According to analysis provides a non-random amount of variance to the linear model of mpg.
+- The balanced accuracy score is 65%. The high_risk precision is about 1% only with 64% sensitivity which makes a F1 of 2% only. Low_risk precision is almost 100% with a sensitivity of 66%.
 	
 
 ## ClusterCentroids model:
@@ -88,7 +86,7 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 </p>  
 	
 
-- According to analysis provides a non-random amount of variance to the linear model of mpg.
+- The balanced accuracy score is 51%. The high_risk precision is about 1% only with 57% sensitivity which makes a F1 of 1% only. Low_risk precision is almost 100% with a sensitivity of 45%.
 	
 ## SMOTEENN model:
 	
@@ -109,7 +107,7 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 </p>  
 	
 
-- According to analysis provides a non-random amount of variance to the linear model of mpg.
+- The balanced accuracy score is 62%. The high_risk precision is about 1% only with 69% sensitivity which makes a F1 of 2% only. Low_risk precision is almost 100% with a sensitivity of 54%.
 	
 
 ## BalancedRandomForestClassifier model:
@@ -131,7 +129,7 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 </p>  
 	
 
-- According to analysis provides a non-random amount of variance to the linear model of mpg.
+- The balanced accuracy score is 79%. The high_risk precision is about 4% only with 67% sensitivity which makes a F1 of 7% only. Low_risk precision is almost 100% with a sensitivity of 91%.
 	
 ## EasyEnsembleClassifier model:
 	
@@ -151,4 +149,4 @@ Due to the high number of the low_risk population, its precision is almost 100% 
 </p>  
 	
 
-- According to analysis provides a non-random amount of variance to the linear model of mpg.
+- The balanced accuracy score is 93%. The high_risk precision is about 7% only with 91% sensitivity which makes a F1 of 14% only. Low_risk precision is almost 100% with a sensitivity of 94%.
